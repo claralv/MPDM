@@ -19,7 +19,7 @@ class MiDialogFragment: DialogFragment()  {
                         "Texto del Toast", Toast.LENGTH_SHORT).show()
                 }
                 .setNegativeButton(android.R.string.cancel) {dialog, which ->
-                    //Callback para el Cancel
+                    //Callback para el Cancel -------
                 }
             //Devuelve un AlertDialog
             //tal y como lo hemos definido en el builder
