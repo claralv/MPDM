@@ -16,7 +16,7 @@ class MiDialogFragment: DialogFragment()  {
                 .setPositiveButton(android.R.string.ok)  {dialog, which ->
                     //Callback para el ok
                     Toast.makeText(requireActivity().applicationContext,
-                        "Texto del Toast", Toast.LENGTH_SHORT).show() //dd
+                        "Texto del Toast", Toast.LENGTH_SHORT).show() //
                 }
                 .setNegativeButton(android.R.string.cancel) {dialog, which ->
                     //Callback para el Cancel -------
